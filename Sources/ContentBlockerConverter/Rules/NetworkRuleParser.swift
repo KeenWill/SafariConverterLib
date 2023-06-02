@@ -1,5 +1,5 @@
 import Foundation
-import Punycode
+import Punnycode
 
 /**
  * Network rules parser
