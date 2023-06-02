@@ -29,7 +29,7 @@ let package = Package(
             dependencies: ["ContentBlockerConverter", "Shared", "ArgumentParser"]),
         .target(
             name: "ContentBlockerConverter",
-            dependencies: ["Punycode", "Shared"]),
+            dependencies: ["PunycodeSwift", "Shared"]),
         .target(
             name: "ContentBlockerEngine",
             dependencies: ["ContentBlockerConverter", "Shared"]),
